@@ -502,6 +502,7 @@ nav {
 #supporting-header {
   text-align: center;
   color: white;
+  font-size: 20;
 }
 
 @media (min-width: 12.5em) {
@@ -620,6 +621,11 @@ nav {
   margin-top: 2em;
   background: url("/img/profile-pic.png") center center no-repeat;
   background: url("https://i.imgur.com/tnMPuVr.png") center center no-repeat;
+}
+
+.montage {
+  margin-top: 1em;
+  position: center;
 }
 
 #about-para {
@@ -989,11 +995,15 @@ nav {
 .btn {
   border: 2px white solid;
   border-radius: 10px;
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 10px;
   text-align: center;
   white-space: nowrap;
   font-weight: 600;
+}
+
+.space {
+  text-align: center;
 }
 
 @media (min-width: 12.5em) {
